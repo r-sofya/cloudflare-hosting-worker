@@ -1,4 +1,4 @@
-import { createTemplateWorker } from 'https://libraries-cmt.pages.dev/hosting-script.js';
+import { createTemplateWorker } from 'https://libraries-cmt.pages.dev/hosting-script.mjs';
 
 export default {
   async fetch(request, env, ctx) {
