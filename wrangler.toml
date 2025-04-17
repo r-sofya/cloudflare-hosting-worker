@@ -1,0 +1,12 @@
+name = "custom-worker"
+type = "module"
+compatibility_date = "2025-04-16"
+
+kv_namespaces = [
+  { binding = "CACHE_VERSION_PROJECT1", id = "YOUR_KV_NAMESPACE_ID" }
+]
+
+[vars]
+TARGET_URL = "https://truly-custom.webflow.io"
+CANONICAL_DOMAIN = "https://www.example.com"
+PUBLISH_PASSWORD = "your-password"
