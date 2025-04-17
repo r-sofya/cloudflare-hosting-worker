@@ -1,4 +1,4 @@
-import { createTemplateWorker } from 'hosting-script.mjs';
+import { createTemplateWorker } from 'external:./hosting-script.mjs';
 
 export default {
   async fetch(request, env, ctx) {
