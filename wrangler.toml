@@ -1,5 +1,7 @@
+name = "custom-worker"
 main = "worker.js"
 compatibility_date = "2025-04-16"
+
 kv_namespaces = [
-  { binding = "CACHE_VERSION_PROJECT1" }
+  { binding = "CACHE_VERSION_PROJECT1", id = "YOUR_KV_NAMESPACE_ID" }
 ]
