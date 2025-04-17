@@ -1,3 +1,12 @@
 name = "custom-worker"
 main = "worker.js"
 compatibility_date = "2025-04-16"
+
+kv_namespaces = [
+  { binding = "Easy Host Cache", id = "c8acc4171db7445da5034ea1a07a2fe7" }
+]
+
+[vars]
+TARGET_URL = "https://truly-custom.webflow.io"
+CANONICAL_DOMAIN = "https://www.example.com"
+PUBLISH_PASSWORD = "your-password"
