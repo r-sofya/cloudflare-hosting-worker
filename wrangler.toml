@@ -1,5 +1,5 @@
 name = "custom-worker"
-main = "worker.js"
+type = "module"
 compatibility_date = "2025-04-16"
 
 kv_namespaces = [
