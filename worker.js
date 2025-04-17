@@ -1,4 +1,4 @@
-import { createTemplateWorker } from 'https://raw.githubusercontent.com/r-sofya/Libraries/refs/heads/main/hosting-script.mjs';
+import { createTemplateWorker } from 'https://cdn.jsdelivr.net/gh/r-sofya/Libraries@main/hosting-script.mjs';
 
 export default {
   async fetch(request, env, ctx) {
